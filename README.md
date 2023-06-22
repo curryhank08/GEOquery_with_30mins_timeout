@@ -18,7 +18,7 @@ To install directly from github:
 
 ```{r}
 library(devtools)
-install_github('GEOquery','seandavi')
+install_github('GEOquery_without_timeout','curryhank08')
 ```
 
 ## Usage
