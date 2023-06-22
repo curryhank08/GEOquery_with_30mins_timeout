@@ -1,9 +1,3 @@
-## Status
-
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/seandavi/GEOquery/workflows/R-CMD-check/badge.svg)](https://github.com/seandavi/GEOquery/actions)
-<!-- badges: end -->
-
 ## Installation
 
 To install directly from github:
@@ -30,6 +24,9 @@ options(timeout=100000)
 # Check the input timeout_seconds
 getOption("timeout")
 ```
+## References
+https://github.com/seandavi/GEOquery/pull/139
+https://www.jianshu.com/p/2bbc8f9a473f
 
 ## Usage
 
@@ -37,7 +34,3 @@ See the full vignette in [rmarkdown](https://github.com/seandavi/GEOquery/blob/m
 
 - [Release version](http://www.bioconductor.org/packages/release/bioc/html/GEOquery.html)
 - [Devel version](http://www.bioconductor.org/packages/devel/bioc/html/GEOquery.html)
-
-## How to contribute
-
-Contributions to GEOquery development can be submitted as a [pull request](https://github.com/seandavi/GEOquery/pulls) or a [feature request issue](https://github.com/seandavi/GEOquery/issues). We recommend following the [Bioconductor coding standards](https://contributions.bioconductor.org/r-code.html) where possible.  
