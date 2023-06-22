@@ -26,7 +26,7 @@ timeout_seconds <- 120
 # Load modified GEOquery
 library(GEOquery)
 
-# Setting the max timeout_seconds (replace 10000 to the numbers you want)
+# Setting the max timeout_seconds (replace 10000 with the numbers you want)
 options(timeout=10000)
 
 # Check the input timeout_seconds (Optional)
