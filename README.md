@@ -12,7 +12,13 @@ install_github("curryhank08/GEOquery_without_timeout", force = TRUE)
 ```
 ## Way to set max timeout_seconds before downloading data
 Since GEOquery_without_timeout/R/getGEOfile.R was modified in line 185 as :
-"timeout_seconds <- max(getOption("timeout"), 120)"
+```{r}
+timeout_seconds <- max(getOption("timeout"), 120)
+```
+, compared to original code :
+```{r}
+timeout_seconds <- 120
+```
 , we have to set timeout seconds before running getGEO().
 
 Shown as below:
@@ -25,7 +31,7 @@ options(timeout=100000)
 getOption("timeout")
 ```
 ## References
-https://github.com/seandavi/GEOquery/pull/139
+https://github.com/seandavi/GEOquery/pull/139,
 https://www.jianshu.com/p/2bbc8f9a473f
 
 ## Usage
