@@ -3,7 +3,7 @@
 To install directly from github:
 
 ```{r}
-# Install remotes from CRAN if you have not installed 'remotes'
+# Install remotes from CRAN if you have not installed 'remotes' (Optional)
 install.packages("remotes")
 
 # Download modified GEOquery package from github by using function(install_github()) from 'remotes' package. 
