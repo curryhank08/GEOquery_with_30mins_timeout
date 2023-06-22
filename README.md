@@ -21,13 +21,16 @@ timeout_seconds <- 120
 ```
 , we have to set timeout seconds before running getGEO().
 
-Shown as below:
+
+Steps shown as below:
 ```{r}
 # Load modified GEOquery
 library(GEOquery)
+
 # Setting the max timeout_seconds
 options(timeout=100000)
-# Check the input timeout_seconds
+
+# Check the input timeout_seconds (Optional)
 getOption("timeout")
 ```
 ## References
