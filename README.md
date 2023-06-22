@@ -22,6 +22,7 @@ timeout_seconds <- 120
 , we have to set timeout seconds before running getGEO().
 
 
+
 Steps shown as below:
 ```{r}
 # Load modified GEOquery
